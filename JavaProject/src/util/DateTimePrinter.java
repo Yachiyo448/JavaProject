@@ -16,6 +16,7 @@ public class DateTimePrinter {
 	 * @return 現在の日時
 	 */
 	public String getCurrentTimeString() {
+		// 現在の日時をLocalDateTimeの型で取得
 		this.time = LocalDateTime.now();
 
 		// 日時のフォーマットを指定
